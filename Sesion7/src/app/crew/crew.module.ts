@@ -10,6 +10,7 @@ import { ContentComponent } from './content/content.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+   exports:[ContentComponent]
 })
 export class CrewModule { }
