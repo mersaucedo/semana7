@@ -3,12 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TecnologyModule } from './tecnology/tecnology.module';
 
 import {NavbarModule } from './navbar/navbar.module';
 
 import { CrewModule } from './crew/crew.module';
-
-
 
 
 @NgModule({
@@ -19,9 +18,8 @@ import { CrewModule } from './crew/crew.module';
     BrowserModule,
     AppRoutingModule,
     NavbarModule,
-
     CrewModule,
-
+    TecnologyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
