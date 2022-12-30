@@ -3,7 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import {NavbarModule } from './navbar/navbar.module';
+
 import { CrewModule } from './crew/crew.module';
+
 
 
 
@@ -14,7 +18,10 @@ import { CrewModule } from './crew/crew.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CrewModule
+    NavbarModule,
+
+    CrewModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
